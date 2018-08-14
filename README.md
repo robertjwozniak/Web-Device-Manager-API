@@ -15,4 +15,16 @@ The following API is going to request the user to grant a permission to read the
 <b>How can we prevent above behaviour from spinning?</b>
 <p>The following API, if implemented, will be marking the website that uses it as a trusted source of drivers update, which will not appear on the projects that mean to infects you by malware. You will not be able to implement the API if your project doesn't use HTTPS connection.</p>
 
-<b>2.2</b>. 
+<b>2.2</b>. A developers who is going to create a project by using the mentioned Web API will be able to create applications with following purposes:
+<ul>
+  <li>1. Analyze data</li>
+  <li>2. Test games' requirements</li>
+  <li>3. Detect outdated drivers on users' machines.</li>
+  <li>4. Gaming industry - Developers will be able to match performant game configuration based on the user's hardware</li>
+  <li>5. E-commerce usage - create related products sliders that provides more accurate offer based on the user's hardware configuration</li>
+  <li>6. Marketing usage - Ads based on current user's machine configuration</li>
+  <li>7. Detection of hardware to support World community grid organization</li>
+</ul>
+
+## 3. Caution
+<p>Even if the browser marks the website as a trustfull source to update the out-dated drivers, it doesn't exclude the user from having antivirus software installed on the local machine. The website even if marked as trustful one, can offer a malware content. The trusful mark doesn't give you a guarantee that the web page doesn't contain malware.</p>
