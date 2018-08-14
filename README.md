@@ -28,3 +28,8 @@ The following API is going to request the user to grant a permission to read the
 
 ## 3. Caution
 <p>Even if the browser marks the website as a trustfull source to update the out-dated drivers, it doesn't exclude the user from having antivirus software installed on the local machine. The website even if marked as trustful one, can offer a malware content. The trusful mark doesn't give you a guarantee that the web page doesn't contain malware.</p>
+
+
+## 4. Syntax
+``` JavaScript
+const deviceManager = new DeviceManager({})
