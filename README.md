@@ -33,3 +33,4 @@ The following API is going to request the user to grant a permission to read the
 ## 4. Syntax
 ``` JavaScript
 const deviceManager = new DeviceManager({})
+```
