@@ -16,7 +16,7 @@ The following API is going to request the user to grant a permission to read the
 <b>How can we prevent above behaviour from spinning?</b>
 <p>The following API, if implemented, will be marking the website that uses it as a trusted source of drivers update, which will not appear on the projects that mean to infects you by malware. You will not be able to implement the API if your project doesn't use HTTPS connection.</p>
 
-<b>2.2</b>. A developers who is going to create a project by using the mentioned Web API will be able to create applications with following purposes:
+<b>2.2</b>. A developer who is going to create a project by using the mentioned Web API will be able to create applications with following purposes:
 <ul>
   <li>1. Analyze data</li>
   <li>2. Test games' requirements</li>
@@ -28,7 +28,7 @@ The following API is going to request the user to grant a permission to read the
 </ul>
 
 ## 3. Caution
-<p>Even if the browser marks the website as a trustfull source to update the out-dated drivers, it doesn't exclude the user from having antivirus software installed on the local machine. The website even if marked as trustful one, can offer a malware content. The trusful mark doesn't give you a guarantee that the web page doesn't contain malware.</p>
+<p>Even if the browser marks the website as a trustful source to update the out-dated drivers, it doesn't exclude the user from having antivirus software installed on the local machine. The website even if marked as trustful one, can offer a malware content. The trustful mark doesn't give you a guarantee that the web page doesn't contain malware.</p>
 
 
 ## 4. Syntax
@@ -54,7 +54,7 @@ const deviceManager = new DeviceManager({
 <p>A detailed property helps the developer to specify and perform filtering in order to bring a significant number of devices needed to run the machine. In the really simple example, if we set the property to <i>true</i> we're going to receive a full list of available user's devices. If we set the property to <i>false</i>, we're going to receive a list of significant parts of the machine needed to run the processes</p>
 
 <p><b>4.2</b>. configuration property</p>
-<p>A configuration property is having a lot to offer for developers. The property allows to bring all of the available settings and properties of the devices available on the user's machine. If we set the property to <i>true</i>, we're going to receive a full list of settings for a specific device as a nested object. If we set the property to <i>false</i>, we're going to receive a fundamental list of settings for a specific device as a nested object.</p>
+<p>A configuration property is having a lot to offer for developers. The property allows bringing all of the available settings and properties of the devices available on the user's machine. If we set the property to <i>true</i>, we're going to receive a full list of settings for a specific device as a nested object. If we set the property to <i>false</i>, we're going to receive a fundamental list of settings for a specific device as a nested object.</p>
 
 <p>The response returned by API is going to be handled by promises.</p>
 
