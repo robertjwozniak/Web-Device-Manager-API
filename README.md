@@ -1,4 +1,5 @@
 # Web Device Manager API
+### Working draft, 14th of August 2018
 
 ## 1. Admission
 The Web Device Manager API is allowing the user to expose their devices included in the configuration of the machine in use.
@@ -32,5 +33,27 @@ The following API is going to request the user to grant a permission to read the
 
 ## 4. Syntax
 ``` JavaScript
-const deviceManager = new DeviceManager({})
+
+const deviceManager = new DeviceManager({
+    detailed: false,
+    configuration: true
+})
+.then(response => response.json())
+.then(data => data)
+.catch(error => error);
+
 ```
+<p>The API is going to provide a constructor called <b>DeviceManager</b> that is going to take a one parameter which is an object containing two properties, listed below.</p>
+<ul>
+  <li><b>detailed</b></li>
+  <li><b>configuration</b></li>
+</ul>
+
+<p>A both properties mentioned above are type of boolean.</p>
+<p><b>4.1</b>. detailed property</p>
+<p>A detailed property helps the developer to specify and perform filtering in order to bring a significant number of devices needed to run the machine. In the really simple example, if we set the property to <i>true</i> we're going to receive a full list of available user's devices. If we set the property to <i>false</i>, we're going to receive a list of significant parts of the machine needed to run the processes</p>
+
+<p><b>4.2</b>. configuration property</p>
+<p>A configuration property is having a lot to offer for developers. The property allows to bring all of the available settings and properties of the devices available on the user's machine. If we set the property to <i>true</i>, we're going to receive a full list of settings for a specific device as a nested object. If we set the property to <i>false</i>, we're going to receive a fundamental list of settings for a specific device as a nested object.</p>
+
+<p>The response returned by API is going to be handled by promises.</p>
