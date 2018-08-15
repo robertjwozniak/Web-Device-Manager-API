@@ -57,5 +57,3 @@ const deviceManager = new DeviceManager({
 <p>A configuration property is having a lot to offer for developers. The property allows bringing all of the available settings and properties of the devices available on the user's machine. If we set the property to <i>true</i>, we're going to receive a full list of settings for a specific device as a nested object. If we set the property to <i>false</i>, we're going to receive a fundamental list of settings for a specific device as a nested object.</p>
 
 <p>The response returned by API is going to be handled by promises.</p>
-
-## 5. Response
