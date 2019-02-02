@@ -1,6 +1,6 @@
 # Web Device Manager API
 ### Working draft, 14th of August 2018
-### Proposed, 02nd of February 2019
+### Proposed, 2nd of February 2019
 
 ## 1. Admission
 The Web Device Manager API is allowing the user to expose their devices included in the configuration of the machine in use.
